@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "for_loop.C": "cpp"
+        "for_loop.C": "cpp",
+        "search_element_in_array.C": "cpp"
     }
 }
