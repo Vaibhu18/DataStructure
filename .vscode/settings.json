@@ -3,6 +3,7 @@
         "for_loop.C": "cpp",
         "search_element_in_array.C": "cpp",
         "Copy_Array_Ele.C": "cpp",
-        "Print_Array_Ele.C": "cpp"
+        "Print_Array_Ele.C": "cpp",
+        "Swap_Two_Numbers.C": "cpp"
     }
 }
