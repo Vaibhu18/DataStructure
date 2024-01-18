@@ -5,6 +5,8 @@
         "Copy_Array_Ele.C": "cpp",
         "Print_Array_Ele.C": "cpp",
         "Swap_Two_Numbers.C": "cpp",
-        "Add_Two_Numbers.C": "cpp"
+        "Add_Two_Numbers.C": "cpp",
+        "pointer.C": "cpp",
+        "Pointer_Create_Initialize_Use.C": "cpp"
     }
 }
