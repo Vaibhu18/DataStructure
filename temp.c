@@ -19,8 +19,8 @@ int main()
     int amount;
     char cont = 'y';
     printf("\nWhat do you want to do?");
-    printf("\n\n1.Register your account");
-    printf("\n2.Login to your account");
+    printf("\n\nPress 1 Open new account");
+    printf("\nPress 2 Login to your account");
 
     printf("\n\nPlease enter your choice:\t");
     scanf("%d", &opt);
@@ -128,10 +128,6 @@ int main()
                                 fwrite(&usr, sizeof(struct user), 1, fptr);
                                 if (fwrite != 0)
                                 {
-                                    // 	printf("ACcount:%s",usr.ac);
-                                    // printf("\npassword%s",usr.password);
-                                    // printf("\nphone%s",usr.phone);
-                                    // printf("\nbalance%f",usr.balance);
                                     printf("Your trasfer is completed. You have trasnfered Rs.%d to %s", amount, usr.phone);
                                     fclose(fptr);
                                     user.balance -= amount;
